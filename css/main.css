@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.columns {
+  position: relative;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.main {
+  height: 800px;
+  background: url("../img/main_bg.jpg") center center/cover no-repeat;
+  padding: 38px 0 61px 0;
+}
+     
+.logo img {
+  display: block;
+  margin: 0 auto;
+}
+.logo .logo_text {
+  margin-top: 9.5px;
+  text-align: center;
+  font-family: Roboto, sans-serif, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+h1 {
+  margin-top: 53px;
+}
+
+.title {
+  font-family: Roboto, sans-serif, sans-serif;
+  font-weight: 700;
+  font-size: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f9bf3b;
+}
+
+.simple .title_big {
+  margin-top: 20.5px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+h2.title {
+  margin-top: 20.5px;
+}
+
+.main .main_text {
+  margin-top: 22.5px;
+  padding: 0 13px 0 13px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.main .main_text span {
+  color: #f9bf3b;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main .main_btn,
+.gift .gift_btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 72px;
+  width: 313px;
+  height: 72px;
+  background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  outline: none;
+}
+
+.gift .gift_btn {
+  margin-top: 51px;
+}
+
+.more {
+  margin-top: 70.5px;
+}
+
+.more .more_text {
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.more img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2.5px;
+}
+
+.waiting {
+  min-height: 604px;
+  background-color: #efefef;
+  padding: 88px 0px 75px;
+}
+
+.waiting .waiting_header {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #252525;
+}
+.divider {
+  margin: 0 auto;
+  margin-top: 18px;
+  width: 220px;
+  height: 7px;
+  background: #f9bf3b;
+}
+.waiting .waiting_subheader {
+  margin-top: 18.5px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  align-items: center;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.waiting .waiting_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45.5px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+  width: 342px;
+  text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+  width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+  margin-top: 26px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #4a4a4a;
+}
+
+.optimization {
+  min-height: 548px;
+  padding: 108px 0 74px 0;
+}
+
+.optimization_header {
+  margin-left: 391px;
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #299cbd;
+}
+
+.optimization_text {
+  margin-left: 391px;
+  margin-top: 25px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+  color: #4a4a4a;
+}
+
+.optimization_text span {
+  font-weight: 700;
+}
+
+.optimization_woman {
+  position: absolute;
+  top: -48px;
+  left: -240px;
+  z-index: -1;
+}
+
+.finish {
+  min-height: 447px;
+  background: url("../img/second_bg.jpg") center center/cover no-repeat;
+  padding: 86px 0 68.5px 0;
+}
+
+.finish .finish_header {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #efefef;
+}
+
+.finish .finish_wrapper {
+  margin-top: 39px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+  width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 118px;
+  height: 118px;
+  background: #b4e2ff;
+  border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+  margin-top: 24.5px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #efefef;
+}
+
+.gift {
+  min-height: 631px;
+  padding: 88px 0 88px 0;
+  background-color: #efefef;
+}
+
+.gift .gift_item {
+  margin: 0 auto;
+}
+
+.gift .gift_item .gift_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.gift .gift_item .gift_descr {
+  margin-top: 45px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  color: #252525;
+}
+
+.first {
+  min-height: 512px;
+  padding: 89px 0 52.5px 0;
+}
+
+.first .first_item {
+  margin: 0 auto;
+}
+
+.first .first_item .first_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.first .first_item .first_descr {
+  margin-top: 36px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #252525;
+}
+
+.first .first_header {
+  margin-top: 30px;
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #299cbd;
+}
+
+.first .first_text {
+  margin-top: 24.5px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center;
+  color: #4a4a4a;
+}
+footer {
+  min-height: 169px;
+  padding: 57px 0 69px 0;
+  background-color: #1a1a1a;
+}
+
+footer .contact {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+footer .contact a:link {  
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 15px;  
+  color: #888888;
+}
+
+footer .contact a:visited {
+    color: #888888;
+}
+
+footer .contact .vertical_divider {
+    color: #888888;
+}
+
+footer .contact .footer_text>a:link {
+    text-decoration-line: none;
+}
